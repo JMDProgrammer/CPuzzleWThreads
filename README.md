@@ -1,5 +1,5 @@
 # CPuzzleWThreads
-An automatic puzzle generator with an automatic puzzle solver, using a dictionary file called dict.txt
+An automatic puzzle generator with an automatic puzzle solver written in C (programming language), using a dictionary file called dict.txt
 
 
 In the terminal enter these commands:
