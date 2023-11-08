@@ -5,6 +5,7 @@ An automatic puzzle generator with an automatic puzzle solver, using a dictionar
 In the terminal enter these commands:
 
 #---------------------------------------------------------------------------
+
 #1. enter make
 
 make
@@ -15,6 +16,7 @@ make
 
 #gcc -o wordpuzzle wordpuzzle.o -I. -g -pthread -w
 
+#---------------------------------------------------------------------------
 
 #---------------------------------------------------------------------------
 
