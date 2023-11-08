@@ -37,7 +37,7 @@ gcc randomgen.c -o randomgen -w
 
 #---------------------------------------------------------------------------
 
-#last the buffersize must be chosen to be the buffer number on line 33 with the wordpuzzle.c file
+#last the randomgen number should be chosen to be the same as buffer number on line 33 with the wordpuzzle.c file
 
 ./randomgen 1000 | ./wordpuzzle -nthreads 20 -nthreads 200000 time -verbose
 
