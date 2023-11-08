@@ -9,7 +9,7 @@ In the terminal enter these commands:
 
 #---------------------------------------------------------------------------
 
-#1. enter make. NOTE: if make -s pops up in replit.com, just retype make and it will work
+#1. enter make. NOTE: if "make -s" pops up in replit.com, just retype make and it will work
 
 make
 
@@ -40,7 +40,7 @@ gcc randomgen.c -o randomgen -w
 
 #---------------------------------------------------------------------------
 
-#last the randomgen number should be chosen to be the same as buffer number on line 33 with the wordpuzzle.c file
+#solve
 
 ./randomgen 10000 | ./wordpuzzle -nthreads 20 -nthreads 200000 time -verbose
 
