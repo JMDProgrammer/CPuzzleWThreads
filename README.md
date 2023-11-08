@@ -45,7 +45,7 @@ gcc randomgen.c -o randomgen -w
 
 Note: Thread #2: started!
 
-Error: can't read the input stream!Note: Thread #9: started!
+Note: Thread #9: started!
 
 Note: Thread #8: started!
 
