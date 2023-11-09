@@ -40,202 +40,56 @@ gcc randomgen.c -o randomgen -w
 
 #---------------------------------------------------------------------------
 
-#solve
+#solve if you change the number at ./randomgen, it's the buffer size, so it should be changed in the code at ./wordpuzzle.c (line 33)
 
-./randomgen 10000 | ./wordpuzzle -nthreads 20 -nthreads 200000 time -verbose
+./randomgen 10000 | ./wordpuzzle -nthreads 10000 -time -verbose
 
 #will give:
 
-Note: Thread #0: started!
-
 Note: Thread #1: started!
 
-Note: Thread #8: started!
-
-Error: can't read the input stream!Note: Thread 0 joined!
-
-Note: Thread 1 joined!
-
-Note: Thread #3: started!
-
-Note: Thread #5: started!
-
-Note: Thread #6: started!
-
-Note: Thread #7: started!
-
-Thread #6: p
-
-Note: Thread #9: started!
-
-Note: Thread #10: started!
-
-Note: Thread #11: started!
-
-Note: Thread #12: started!
-
-Note: Thread #13: started!
-
-Note: Thread #4: started!
-
-Note: Thread #14: started!
-
-Note: Thread #15: started!
-
-Note: Thread #16: started!
+Error: can't read the input stream!Note: Thread #4: started!
 
 Note: Thread #2: started!
 
-Thread #7: mc
+Note: Thread #0: started!
 
-Thread #7: c
+Note: Thread #3: started!
 
-Thread #7: mc
+Note: Thread #2: at
 
-Thread #7: c
+Note: Thread #3: f
 
-Thread #6: p
+Note: Thread #2: t
 
-Note: Thread #17: started!
+Note: Thread #0: u
 
-Note: Thread #18: started!
+Note: Thread #4: o
 
-Note: Thread #19: started!
+Note: Thread #4: o
 
-Note: Thread #20: started!
+Note: Thread #3: f
 
-Note: Thread #21: started!
+Note: Thread #2: at
 
-Thread #17: yr
+Note: Thread #2: t
 
-Thread #17: r
+Note: Thread #0: u
 
-Note: Thread #22: started!
+Note: Thread 0 joined!
 
-Note: Thread #23: started!
+Note: Thread 1 joined!
 
-Thread #22: z
+Note: Thread 2 joined!
 
-Note: Thread #24: started!
+Note: Thread 3 joined!
 
-Note: Thread #25: started!
+Note: Thread 4 joined!
 
-Thread #21: br
+Note: Total time: 73660645 nanoseconds using 5 threads!
 
-Thread #21: r
+This is a test: 11826415 nanoseconds using threads!
 
-Thread #21: up
-
-Thread #21: p
-
-Thread #22: post
-
-Thread #22: st
-
-Thread #22: t
-
-Note: Thread #31: started!
-
-Note: Thread #34: started!
-
-Thread #22: kon
-
-Thread #22: on
-
-Thread #22: n
-
-Thread #22: z
-
-Thread #22: post
-
-Thread #22: st
-
-Thread #22: t
-
-Thread #22: kon
-
-Thread #22: on
-
-Thread #22: n
-
-Note: Thread #69: started!
-
-Note: Thread #27: started!
-
-Note: Thread #28: started!
-
-Note: Thread #29: started!
-
-Thread #29: n
-
-Note: Thread #30: started!
-
-Note: Thread #32: started!
-
-Thread #31: cor
-
-Thread #31: or
-
-Thread #31: r
-
-Thread #31: c
-
-Thread #31: cor
-
-Thread #31: or
-
-Thread #31: r
-
-Thread #31: c
-
-Thread #32: ta
-
-Thread #32: a
-
-Thread #29: sb
-
-Thread #29: b
-
-Thread #29: x
-
-Thread #29: n
-
-Thread #29: sb
-
-Thread #29: b
-
-Thread #29: x
-
-Thread #32: ta
-
-Thread #32: a
-
-Note: Thread #53: started!
-
-Note: Thread #54: started!
-
-Note: Thread #33: started!
-
-Thread #53: ldl
-
-Thread #53: dl
-
-Thread #53: l
-
-Note: Thread #55: started!
-
-Note: Thread #45: started!
-
-Thread #54: hex
-
-Thread #54: ex
-
-Thread #54: x
-
-Note: Thread #56: started!
-
-Note: Total time: 194557090 nanoseconds using 10 threads!
-
---> it mostly works and I am proud of it
+--> it mostly works and I am proud of it.
 
 #---------------------------------------------------------------------------
