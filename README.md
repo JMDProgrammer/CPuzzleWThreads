@@ -40,7 +40,9 @@ gcc randomgen.c -o randomgen -w
 
 #---------------------------------------------------------------------------
 
-#solve if you change the number at ./randomgen, it's the buffer size, so it should be changed in the code at ./wordpuzzle.c (line 33)
+#solve: 
+
+Note: if you change the buffersize that comes after ./randomgen, it should also be changed in the code at ./wordpuzzle.c (line 33) if there are any problems
 
 ./randomgen 10000 | ./wordpuzzle -nthreads 10000 -time -verbose
 
