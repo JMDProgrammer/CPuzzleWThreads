@@ -1,18 +1,13 @@
 # CPuzzleWThreads
 An automatic puzzle generator with an automatic puzzle solver written in C (programming language), using a dictionary file called dict.txt
 
-Project hosted on:
-
-https://replit.com/@monkeythrowup/Project6#wordpuzzle.c
-
 In the terminal enter these commands:
 
 #---------------------------------------------------------------------------
 
-#1. enter make. NOTE: if "make -s" pops up in replit.com, just retype make and it will work
+#1. enter "make"
 
 make
-
 
 #---------------------------------------------------------------------------
 
@@ -42,7 +37,7 @@ gcc randomgen.c -o randomgen -w
 
 #solve: 
 
-Note: if you change the buffersize that comes after ./randomgen, it should also be changed in the code at ./wordpuzzle.c (line 33) if there are any problems
+Note: if you change the buffersize that comes after ./randomgen, it should also be changed in the code at ./wordpuzzle.c (line 33) if there are any problems (for more words, adjust the numbers)
 
 ./randomgen 10000 | ./wordpuzzle -nthreads 10000 -time -verbose
 
